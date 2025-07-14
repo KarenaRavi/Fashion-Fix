@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.header-componunt{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-componunt1{
+    width: 22%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-componunt1 button{
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #3a86ff;
+    border: none;
+}
+
+.header-componunt1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.carousel-inner{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.gender{
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender .men{
+    width: 31%;
+    height: 250px;
+    padding: 100px 155px;
+    background-image: url("men.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gender .women{
+    width: 31%;
+    height: 250px;
+    padding: 100px 155px;
+    background-image: url("women.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gender .kid{
+    width: 31%;
+    height: 250px;
+    padding: 100px 180px;
+    background-image: url("kid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gender button{
+    margin: 0 auto;
+    padding: 5px;
+    align-items: center;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: steelblue;
+}
+
+.footer-content{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: lightgray;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header-componunt1{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-componunt1 a{
+    padding-right: 20px;
+}
+.carousel-inner{
+    margin: 0 auto;
+    height: 400px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 400px;
+}
+
+.gender{
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gender .men{
+    width: 45%;
+    height: 250px;
+    padding: 100px 130px;
+    background-image: url("men.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gender .women{
+    width: 45%;
+    height: 250px;
+    padding: 100px 130px;
+    background-image: url("women.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gender .kid{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 45%;
+    height: 250px;
+    padding: 100px 130px;
+    background-image: url("kid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gender button:hover{
+    margin: 0 auto;
+    padding: 5px;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.footer-content{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: lightgray;
+}
+}
+
+@media only screen and (max-width: 460px) {
+    
+    .header-componunt1{
+    width: 54%;
+    justify-content: space-between;
+}
+
+.carousel-inner{
+    margin: 0 auto;
+    height: 250px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 250px;
+}
+
+.gender{
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gender .men{
+    margin: 0 auto;
+    width: 70%;
+    height: 250px;
+    padding: 100px 130px;
+    background-image: url("men.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gender .women{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 70%;
+    height: 250px;
+    padding: 100px 100px;
+    background-image: url("women.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gender .kid{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 70%;
+    height: 250px;
+    padding: 100px 130px;
+    background-image: url("kid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-content{
+    width: 95%;
+    padding-top: 50px;
+    font-size: 12px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: lightgray;
+}
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-componunt{
+    width: 100%;
+    padding: 3px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-componunt1{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-componunt1 button{
+    padding: 0 15px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    background-color: #3a86ff;
+    border: none;
+}
+
+.header-componunt1 a{
+    text-decoration: none;
+    padding-top: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form{
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvN_hTP_4vOdXH64DFj6c9sw5aWxrDhJQD2w&s");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 125px 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+form a{
+    text-decoration: none;
+    color: white;
+}
+
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: steelblue;
+}
+
+.footer-content{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: lightgray;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header-componunt1{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-componunt1 a{
+    padding-right: 20px;
+}
+
+.footer-content{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: lightgray;
+}
+form{
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvN_hTP_4vOdXH64DFj6c9sw5aWxrDhJQD2w&s");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 125px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+@media only screen and (max-width: 460px) {
+.header-componunt1{
+    width: 54%;
+    justify-content: space-between;
+}
+
+
+.footer-content{
+    width: 95%;
+    padding-top: 50px;
+    font-size: 12px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: lightgray;
+}
+form{
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvN_hTP_4vOdXH64DFj6c9sw5aWxrDhJQD2w&s");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 340px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+}
