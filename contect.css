@@ -193,14 +193,14 @@ footer{
 @media only screen and (max-width: 460px) {
     
     .header-componunt1{
-    width: 30%;
+    width: 43%;
     justify-content: space-between;
 }
 
 .about{
     width: 95%;
-    margin-top: 40px;
-    height: 550px;
+    margin-top: 10px;
+    height: 600px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -219,8 +219,8 @@ footer{
 }
 
 .image{
-    width: 100%;
-    padding-left: 95px;
+    width: 90%;
+    padding-left: 60px;
 }
 
 .contect-detail{

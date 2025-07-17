@@ -193,7 +193,7 @@ footer{
 @media only screen and (max-width: 460px) {
     
     .header-componunt1{
-    width: 54%;
+    width: 53%;
     justify-content: space-between;
 }
 
@@ -218,9 +218,9 @@ footer{
 
 .gender .men{
     margin: 0 auto;
-    width: 70%;
+    width: 85%;
     height: 250px;
-    padding: 100px 130px;
+    padding: 100px 150px;
     background-image: url("men.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,23 +229,18 @@ footer{
 .gender .women{
     margin: 0 auto;
     margin-top: 40px;
-    width: 70%;
+    width: 85%;
     height: 250px;
-    padding: 100px 100px;
+    padding: 100px 130px;
     background-image: url("women.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .gender .kid{
-    margin: 0 auto;
-    margin-top: 40px;
-    width: 70%;
+    width: 85%;
     height: 250px;
-    padding: 100px 130px;
-    background-image: url("kid.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: 100px 160px;
 }
 
 .footer-content{
