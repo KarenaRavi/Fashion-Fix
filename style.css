@@ -185,6 +185,12 @@ footer{
 
 @media only screen and (max-width: 460px) {
 
+.nav-link button{
+    border-radius: 0;
+    color: black;
+    background-color: transparent;
+}
+
 .carousel-inner{
     margin: 0 auto;
     height: 250px;
@@ -208,7 +214,7 @@ footer{
     margin: 0 auto;
     width: 95%;
     height: 250px;
-    padding: 100px 135px;
+    padding: 100px 140px;
     background-image: url("men.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,7 +225,7 @@ footer{
     margin-top: 40px;
     width: 95%;
     height: 250px;
-    padding: 100px 120px;
+    padding: 100px 125px;
     background-image: url("women.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -230,7 +236,7 @@ footer{
     margin-top: 40px;
     width: 95%;
     height: 250px;
-    padding: 100px 140px;
+    padding: 100px 145px;
     background-image: url("kid.jpg");
     background-repeat: no-repeat;
     background-size: cover;

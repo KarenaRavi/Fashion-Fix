@@ -88,6 +88,12 @@ form{
 
 @media only screen and (max-width: 460px) {
 
+.nav-link button{
+    border-radius: 0;
+    color: black;
+    background-color: transparent;
+}
+
 form{
     width: 100%;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvN_hTP_4vOdXH64DFj6c9sw5aWxrDhJQD2w&s");
