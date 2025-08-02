@@ -6,34 +6,26 @@
 }
 
 
-.header-componunt{
-    width: 100%;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
+.navbar-brand h1{
+    font-size: 30px;
+    font-weight: 500;
 }
 
-.header-componunt1{
-    width: 22%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.header-componunt1 button{
+.nav-link button{
     padding: 5px 15px;
     text-align: center;
     border-radius: 30px;
     font-size: 20px;
     font-weight: 500;
+    color: white;
     background-color: #3a86ff;
     border: none;
 }
 
-.header-componunt1 a{
-    text-decoration: none;
-    color: black;
+.navbar-nav{
     font-size: 20px;
-    font-weight: 500;
+    text-align: center;
+    margin-left: 1040px;
 }
 
 .header{
@@ -47,7 +39,7 @@
 
 .header-content{
     margin: 0 auto;
-    padding: 313px;
+    padding: 300px;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.632);
     text-align: center;
@@ -143,7 +135,7 @@
 .gender .women{
     width: 31%;
     height: 250px;
-    padding: 100px 155px;
+    padding: 100px 165px;
     background-image: url("women.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,7 +144,7 @@
 .gender .kid{
     width: 31%;
     height: 250px;
-    padding: 100px 180px;
+    padding: 100px 200px;
     background-image: url("kid.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,16 +190,6 @@ footer{
 }
 
 @media only screen and (max-width: 768px) {
-
-    .header-componunt1{
-    width: 30%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.header-componunt1 a{
-    padding-right: 20px;
-}
 .header{
     width: 100%;
     height: 500px;
@@ -297,12 +279,6 @@ footer{
 
 @media only screen and (max-width: 460px) {
 
-    .header-componunt1{
-    width: 54%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .header{
     width: 100%;
     height: 250px;
@@ -330,37 +306,7 @@ footer{
     font-weight: 400;
 }
 
-.gender .women{
-    width: 90%;
-    margin: 0 auto;
-    height: 250px;
-    padding: 100px 150px;
-    background-image: url("women.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.gender .kid{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 40px;
-    height: 250px;
-    padding: 100px 170px;
-    background-image: url("kid.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-    .footer-content{
-    width: 100%;
-    padding: 50px 5px;
-    font-size: 11px;
-    display: flex;
-    justify-content: space-around;
-    color: lightgray;
-}
-    
-    .cloth-section{
+.cloth-section{
     padding: 10px;
     background-color: rgba(231, 217, 199, 0.7);
 }
@@ -390,5 +336,48 @@ footer{
     max-width: 100%;
     max-height: 45%;
     
+}
+
+.gender{
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gender .women{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 95%;
+    height: 250px;
+    padding: 100px 73px;
+    background-image: url("women.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gender .kid{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 95%;
+    height: 250px;
+    padding: 100px 100px;
+    background-image: url("kid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-content{
+    width: 60%;
+    padding-top: 30px;
+    font-size: 12px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: lightgray;
 }
 }

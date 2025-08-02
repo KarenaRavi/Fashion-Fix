@@ -4,36 +4,26 @@
     box-sizing: border-box;
 }
 
-.header-componunt{
-    width: 100%;
-    padding: 3px 20px;
-    display: flex;
-    justify-content: space-between;
+.navbar-brand h1{
+    font-size: 30px;
+    font-weight: 500;
 }
 
-.header-componunt1{
-    width: 15%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.header-componunt1 button{
-    padding: 0 15px;
+.nav-link button{
+    padding: 5px 15px;
     text-align: center;
     border-radius: 30px;
     font-size: 20px;
     font-weight: 500;
-    color: black;
+    color: white;
     background-color: #3a86ff;
     border: none;
 }
 
-.header-componunt1 a{
-    text-decoration: none;
-    padding-top: 10px;
-    color: black;
+.navbar-nav{
     font-size: 20px;
-    font-weight: 500;
+    text-align: center;
+    margin-left: 1040px;
 }
 
 form{
@@ -43,7 +33,7 @@ form{
     background-attachment: fixed;
     background-size: cover;
     margin: 0 auto;
-    padding: 125px 600px;
+    padding: 125px 500px;
     justify-content: center;
     align-items: center;
 }
@@ -73,15 +63,6 @@ footer{
 
 
 @media only screen and (max-width: 768px) {
-    .header-componunt1{
-    width: 30%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.header-componunt1 a{
-    padding-right: 20px;
-}
 
 .footer-content{
     width: 80%;
@@ -106,21 +87,7 @@ form{
 }
 
 @media only screen and (max-width: 460px) {
-.header-componunt1{
-    width: 46%;
-    justify-content: space-between;
-}
 
-
-.footer-content{
-    width: 95%;
-    padding-top: 50px;
-    font-size: 12px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    color: lightgray;
-}
 form{
     width: 100%;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvN_hTP_4vOdXH64DFj6c9sw5aWxrDhJQD2w&s");
@@ -128,9 +95,21 @@ form{
     background-attachment: fixed;
     background-size: cover;
     margin: 0 auto;
-    padding: 150px 10px;
+    padding: 100px 10px;
     justify-content: center;
     align-items: center;
+}
+
+.footer-content{
+    width: 60%;
+    padding-top: 30px;
+    font-size: 12px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: lightgray;
 }
 
 }

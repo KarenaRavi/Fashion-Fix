@@ -5,34 +5,26 @@
     font-family: "Amazon Ember", Arial, sans-serif;
 }
 
-.header-componunt{
-    width: 100%;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
+.navbar-brand h1{
+    font-size: 30px;
+    font-weight: 500;
 }
 
-.header-componunt1{
-    width: 22%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.header-componunt1 button{
+.nav-link button{
     padding: 5px 15px;
     text-align: center;
     border-radius: 30px;
     font-size: 20px;
     font-weight: 500;
+    color: white;
     background-color: #3a86ff;
     border: none;
 }
 
-.header-componunt1 a{
-    text-decoration: none;
-    color: black;
+.navbar-nav{
     font-size: 20px;
-    font-weight: 500;
+    text-align: center;
+    margin-left: 1040px;
 }
 
 .carousel-inner{
@@ -59,7 +51,7 @@
 .gender .men{
     width: 31%;
     height: 250px;
-    padding: 100px 155px;
+    padding: 100px 165px;
     background-image: url("men.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +60,7 @@
 .gender .women{
     width: 31%;
     height: 250px;
-    padding: 100px 155px;
+    padding: 100px 150px;
     background-image: url("women.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,6 +86,16 @@
     font-weight: 400;
 }
 
+.gender button:hover{
+    margin: 0 auto;
+    padding: 5px;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: 400;
+}
+
 footer{
     width: 100%;
     margin: 0 auto;
@@ -113,15 +115,6 @@ footer{
 
 
 @media only screen and (max-width: 768px) {
-    .header-componunt1{
-    width: 30%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.header-componunt1 a{
-    padding-right: 20px;
-}
 .carousel-inner{
     margin: 0 auto;
     height: 400px;
@@ -191,11 +184,6 @@ footer{
 }
 
 @media only screen and (max-width: 460px) {
-    
-    .header-componunt1{
-    width: 53%;
-    justify-content: space-between;
-}
 
 .carousel-inner{
     margin: 0 auto;
@@ -218,9 +206,9 @@ footer{
 
 .gender .men{
     margin: 0 auto;
-    width: 85%;
+    width: 95%;
     height: 250px;
-    padding: 100px 150px;
+    padding: 100px 90px;
     background-image: url("men.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,27 +217,34 @@ footer{
 .gender .women{
     margin: 0 auto;
     margin-top: 40px;
-    width: 85%;
+    width: 95%;
     height: 250px;
-    padding: 100px 130px;
+    padding: 100px 73px;
     background-image: url("women.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .gender .kid{
-    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 95%;
     height: 250px;
-    padding: 100px 160px;
+    padding: 100px 100px;
+    background-image: url("kid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footer-content{
-    width: 95%;
-    padding-top: 50px;
+    width: 60%;
+    padding-top: 30px;
     font-size: 12px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
     color: lightgray;
 }
 }
