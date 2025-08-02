@@ -24,8 +24,8 @@
 
 .navbar-nav{
     font-size: 20px;
-    text-align: center;
-    margin-left: 1040px;
+    text-align: right;
+    margin-left: auto;
 }
 
 .header{
@@ -352,7 +352,7 @@ footer{
     margin-top: 40px;
     width: 95%;
     height: 250px;
-    padding: 100px 73px;
+    padding: 100px 120px;
     background-image: url("women.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -363,7 +363,7 @@ footer{
     margin-top: 40px;
     width: 95%;
     height: 250px;
-    padding: 100px 100px;
+    padding: 100px 140px;
     background-image: url("kid.jpg");
     background-repeat: no-repeat;
     background-size: cover;
